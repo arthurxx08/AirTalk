@@ -17,7 +17,7 @@ jobs:
       - name: Build iOS app
         run: |
           xcodebuild \
-            -project AirTalk.xcodeproj \
+            -project AirTalk\AirTalk.xcodeproj \
             -scheme AirTalk \
             -sdk iphoneos \
             -configuration Release \
