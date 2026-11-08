@@ -1,0 +1,29 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        A10000000000000000000001 /* AirTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTalkApp.swift; sourceTree = "<group>"; };
+        A10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        A10000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A10000000000000000000004 /* AirTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000005 /* AirTalk */ = {isa = PBXGroup; children = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003,); path = AirTalk; sourceTree = "<group>"; };
+        A10000000000000000000006 = {isa = PBXGroup; children = (A10000000000000000000005, A10000000000000000000007,); sourceTree = "<group>"; };
+        A10000000000000000000007 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000004,); name = Products; sourceTree = "<group>"; };
+        A10000000000000000000008 /* AirTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001; };
+        A10000000000000000000009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+        A10000000000000000000010 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000011 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000012 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000008, A10000000000000000000009,); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000013 = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000020; buildPhases = (A10000000000000000000010, A10000000000000000000012, A10000000000000000000011,); buildRules = (); dependencies = (); name = AirTalk; productName = AirTalk; productReference = A10000000000000000000004; productType = "com.apple.product-type.application"; };
+        A10000000000000000000014 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {A10000000000000000000013 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = A10000000000000000000021; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A10000000000000000000006; productRefGroup = A10000000000000000000007; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000013,); };
+        A10000000000000000000015 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000016, A10000000000000000000017,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000016 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AirTalk/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = com.example.AirTalk; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+        A10000000000000000000017 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AirTalk/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = com.example.AirTalk; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+        A10000000000000000000018 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000019, A10000000000000000000022,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000019 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; }; name = Debug; };
+        A10000000000000000000022 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; }; name = Release; };
+    };
+    rootObject = A10000000000000000000014;
+}
